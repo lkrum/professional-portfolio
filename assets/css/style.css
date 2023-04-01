@@ -13,14 +13,24 @@ header {
   font-size: 10px;
   background-color: #ffb6e8;
   width: 100%;
+  padding: 0 0 20px 0;
+  margin: 0;
+  border: 0;
+  height: 55px;
 }
 
 h1 {
   justify-content: flex-start;
-  align-items: center;
   margin-left: 80px;
-  font-size: 4em;
-  background-color: #610f47;
+  font-size: 5em;
+  background-color: #54cfe2;
+  padding-left: 50px;
+  padding-right: 5px;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10px;
+  border: 0;
 }
 
 nav {
@@ -30,7 +40,8 @@ nav {
   font-weight: 900px;
   font-size: 1.8em;
   text-decoration: underline;
-  margin-left: 500px;
+  margin-left: 400px;
+  margin-top: 20px;
 }
 
 nav a {
@@ -61,6 +72,24 @@ div {
   margin-left: 4rem;
 }
 
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 50%;
+}
+
+img {
+  position: relative;
+  width: 50%;
+  height: 150px;
+}
+
+#cat {
+  order: 5;
+  width: 100%;
+}
+
 .line {
 display: flex;
 flex-wrap: wrap;
@@ -76,7 +105,7 @@ p {
 }
 
 footer {
+  bottom: 0;
   border-bottom: 20px #747474 solid;
   width: 100%;
-  margin-bottom: 0;
 }
