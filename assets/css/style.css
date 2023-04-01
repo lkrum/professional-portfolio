@@ -15,7 +15,7 @@ header {
   width: 100%;
   padding: 0 0 20px 0;
   margin: 0;
-  border: 0;
+  border: 0px;
   height: 55px;
 }
 
@@ -69,20 +69,28 @@ div {
   display: flex;
   justify-content: flex-start;
   padding: 20px;
-  margin-left: 4rem;
 }
+
 
 .photos {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  width: 50%;
+  position: relative;
+  font-size: 18px;
+  border-left: 3px #ffb6e8 solid;
+  padding-left: 25px;
+}
+
+.pics {
+  margin: 0;
+  border: 0;
+  padding: 10px;
+  max-width: 50%;
 }
 
 img {
-  position: relative;
-  width: 50%;
-  height: 150px;
+  height: 300px;
 }
 
 #cat {
