@@ -15,17 +15,18 @@ header {
   font-size: 10px;
   background-color: var(--darkblue);
   width: 100%;
-  padding: 0 0 30px 0;
+  padding: 0 0 40px 0;
   margin: 0;
   border: 0px;
-  height: 55px;
+  height: 80px;
 }
-
+   
 h1 {
   font-family: serif;
   color: #e8e8e8;
   justify-content: flex-start;
-  font-size: 5.4em;
+  align-items: center;
+  font-size: 5em;
   border-radius: 20px 20px 20px 20px;
   padding-left: 20px;
   padding-right: 20px;
@@ -57,7 +58,14 @@ body {
 }
 
 main {
-  margin: 60px 20px;
+  margin: 10px 0 60px 30px;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  border-bottom: 4px var(--darkblue) solid;
+  margin: 30px;
 }
 
 h2 {
@@ -80,6 +88,8 @@ div {
 
 .portfolio {
   display: flex;
+  border-bottom: 4px var(--darkblue) solid;
+  margin: 30px;
 }
 
 .photos {
@@ -88,20 +98,17 @@ div {
   position: relative;
   width: 60%;
   font-size: 18px;
-  border-left: 5px var(--darkblue) solid;
   padding-left: 25px;
 }
 
 .pics {
   position: relative;
   display: block;
-  margin: 0;
-  border: 0;
   padding: 10px;
 }
 
 img {
-  height: 220px;
+  height: 210px;
   border: 5px solid #54cfe2;
 }
 
@@ -117,18 +124,16 @@ img {
   display: flex;
   flex-wrap: wrap;
   width: 70%;
-
+  margin-left: 20px;
 }
 
 p {
   position: relative;
   font-size: 18px;
-  border-left: 5px var(--darkblue) solid;
-  padding-left: 25px;
+  padding-left: 30px;
 }
 
 ul {
-  border-left: 5px var(--darkblue) solid;
   padding-left: 40px;
   line-height: 40px;
   font-size: 20px;
@@ -137,15 +142,22 @@ ul {
   list-style: none;
 }
 
-
-.contact-me p {
-  font-size: 20px;
-  text-align: justify;
-  padding-bottom: 20px;
+.contact-me {
+  margin-left: 40px;
+  
 }
 
 footer {
   bottom: 0;
-  border-bottom: 20px var(--darkblue) solid;
+  border-bottom: 60px var(--darkblue) solid;
   width: 100%;
 }
+
+@media screen and (max-width: 992px) {
+  border: ;
+}
+
+@media screen and (max-width: 576px) {
+  
+
+  }
