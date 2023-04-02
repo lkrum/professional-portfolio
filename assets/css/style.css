@@ -68,6 +68,11 @@ main {
   margin: 30px;
 }
 
+#intro {
+  display: block;
+  
+}
+
 h2 {
   position: relative;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -119,16 +124,9 @@ img {
 
 }
 
-.line {
-  display: block;
-  display: flex;
-  flex-wrap: wrap;
-  width: 70%;
-  margin-left: 20px;
-}
-
 p {
   position: relative;
+  display: block;
   font-size: 18px;
   padding-left: 30px;
 }
