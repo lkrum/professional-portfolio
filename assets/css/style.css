@@ -56,6 +56,10 @@ body {
   background-color: #d6d6d6;
 }
 
+main {
+  margin: 60px 20px;
+}
+
 h2 {
   position: relative;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -82,27 +86,36 @@ div {
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  width: 60%;
   font-size: 18px;
   border-left: 5px var(--darkblue) solid;
   padding-left: 25px;
 }
 
 .pics {
+  position: relative;
+  display: block;
   margin: 0;
   border: 0;
   padding: 10px;
-  max-width: 50%;
 }
 
 img {
-  height: 300px;
+  height: 220px;
   border: 5px solid #54cfe2;
 }
 
+#cat {
+  height: auto;
+  max-width: 70%;
+  margin-left: 100px;
+}
+
 .line {
-display: flex;
-flex-wrap: wrap;
-width: 70%;
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
 
 }
 
