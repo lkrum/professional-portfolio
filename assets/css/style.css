@@ -2,8 +2,10 @@
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body {
-  margin: 0 auto;
+:root {
+  --blue: #54cfe2;
+  --darkblue: #0092b7;
+
 }
 
 header {
@@ -11,23 +13,24 @@ header {
   justify-content: space-between;
   align-items: center;
   font-size: 10px;
-  background-color: #ffb6e8;
+  background-color: var(--darkblue);
   width: 100%;
-  padding: 0 0 20px 0;
+  padding: 0 0 30px 0;
   margin: 0;
   border: 0px;
   height: 55px;
 }
 
 h1 {
+  font-family: serif;
+  color: #e8e8e8;
   justify-content: flex-start;
-  margin-left: 80px;
-  font-size: 5em;
-  background-color: #54cfe2;
-  padding-left: 50px;
-  padding-right: 5px;
-  margin-top: 20px;
-  margin-left: 0;
+  font-size: 5.4em;
+  border-radius: 20px 20px 20px 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 40px;
+  margin-left: 20px;
   margin-right: 0;
   margin-bottom: 10px;
   border: 0;
@@ -35,22 +38,22 @@ h1 {
 
 nav {
   display: flex;
-  align-items: center;
-  color: #610f47;
   font-weight: 900px;
-  font-size: 1.8em;
+  font-size: 2em;
   text-decoration: underline;
   margin-left: 400px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 nav a {
   padding: 10px;
   text-align: center;
+  color: #e8e8e8;
 }
 
 body {
-background-color: #d6d6d6;
+  margin: 0 auto;
+  background-color: #d6d6d6;
 }
 
 h2 {
@@ -61,7 +64,7 @@ h2 {
   width: 10%;
   text-align: right;
   margin-right: 30px;
-
+  margin-left: 20px;
 }
 
 div {
@@ -71,14 +74,16 @@ div {
   padding: 20px;
 }
 
+.portfolio {
+  display: flex;
+}
 
 .photos {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  position: relative;
   font-size: 18px;
-  border-left: 3px #ffb6e8 solid;
+  border-left: 5px var(--darkblue) solid;
   padding-left: 25px;
 }
 
@@ -91,11 +96,7 @@ div {
 
 img {
   height: 300px;
-}
-
-#cat {
-  order: 5;
-  width: 100%;
+  border: 5px solid #54cfe2;
 }
 
 .line {
@@ -108,12 +109,12 @@ width: 70%;
 p {
   position: relative;
   font-size: 18px;
-  border-left: 3px #ffb6e8 solid;
+  border-left: 5px var(--darkblue) solid;
   padding-left: 25px;
 }
 
 footer {
   bottom: 0;
-  border-bottom: 20px #747474 solid;
+  border-bottom: 20px var(--darkblue) solid;
   width: 100%;
 }
