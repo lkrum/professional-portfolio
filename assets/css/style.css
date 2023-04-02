@@ -127,6 +127,23 @@ p {
   padding-left: 25px;
 }
 
+ul {
+  border-left: 5px var(--darkblue) solid;
+  padding-left: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande','Lucida Sans Unicode', Geneva,Verdana, sans-serif;
+  list-style: none;
+}
+
+
+.contact-me p {
+  font-size: 20px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
 footer {
   bottom: 0;
   border-bottom: 20px var(--darkblue) solid;
