@@ -125,10 +125,7 @@ div {
   margin-left: 90px;
 }
 
-#computer,
-#journal,
-#typewriter,
-#meeting {
+.images {
   height: 150px;
   border: 5px solid #54cfe2;
 }
@@ -141,7 +138,7 @@ h3 {
   transform: 50%;
 }
 
-#cat:hover {
+.images:hover {
   box-shadow: 5px 5px 5px 5px var(--darkblue);
   transition: .5s;
   border: none;
