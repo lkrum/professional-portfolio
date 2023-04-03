@@ -63,21 +63,23 @@ body {
 }
 
 main {
-  margin: 10px 0 60px 30px;
+  margin: 20px 0 40px 0px;
 }
 
 #about-me {
   display: flex;
   align-items: center;
   border-bottom: 4px var(--darkblue) solid;
+  padding-bottom: 20px;
   margin-right: 80px;
   margin-left: 80px;
 }
 
 #intro {
-  display: block;
-  border: 0;  
-  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  border: 0;
+  flex-direction: column;
   font-size: 24px;
 }
 
@@ -89,44 +91,49 @@ h2 {
   width: 10%;
   margin-right: 30px;
   margin-left: 20px;
-}
 
+}
+/*  Commented out on suggestion of tutor
 div {
   position: relative;
   display: flex;
   justify-content: flex-start;
   padding: 20px;
 }
+*/
 
 #portfolio {
   display: flex;
-  align-items: center;  border-bottom: 4px var(--darkblue) solid;
+  align-items: center;  
+  border-bottom: 4px var(--darkblue) solid;
   margin: 30px;
+  margin-left: 60px;
+  padding-bottom: 20px;
 }
 
 .photos {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   position: relative;
-  width: 60%;
-  font-size: 1vw;
-  padding-left: 25px;
+  font-size: 1.2vw;
+  padding-right: 50px;
 }
 
 .pics {
   position: relative;
-  display: inline;
+  display: flex;
   padding: 10px;
 }
 
 #prework {
   position: absolute;
-  margin-left: 90px;
 }
 
 .images {
-  height: 150px;
+  height: 15vw;
   border: 5px solid #54cfe2;
 }
 
@@ -146,14 +153,22 @@ h3 {
 
 #cat {
   display: inline;
-  height: 150px;
+  height: 100%;
   border: 5px solid #54cfe2;
-  height: auto;
-  max-width: 70%;
-  margin-left: 90px;
+  width: 100%;
 
 }
 
+.largepics {
+  height: 20vw;
+  padding-bottom: 20px;
+}
+
+.smallpics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 p {
   position: relative;
@@ -175,8 +190,13 @@ div p {
 
 .socials {
   color: var(--darkblue);
-  font-size: 1.5vw;
-  padding: 5vw;
+  font-size: 1.6vw;
+  padding: 8vw;
+}
+
+#contact {
+  display: flex;
+  align-items: center;
 }
 
 footer {
