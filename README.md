@@ -1,9 +1,9 @@
 # professional-portfolio
 
 ## Description
-This page is a portfolio of my software development work including my profile and contact information.
+This page is a portfolio of my software development work including my profile and contact information. I created it as a way to easily share my work with coworkers and clients.
 
-Link to live page: 
+Link to live page: https://lkrum.github.io/professional-portfolio/
 
 ## Installation
 N/A
