@@ -5,7 +5,6 @@
 :root {
   --blue: #54cfe2;
   --darkblue: #0092b7;
-
 }
 
 header {
@@ -93,6 +92,7 @@ h2 {
   margin-left: 20px;
 
 }
+
 /*  Commented out on suggestion of tutor
 div {
   position: relative;
@@ -156,7 +156,6 @@ h3 {
   height: 100%;
   border: 5px solid #54cfe2;
   width: 100%;
-
 }
 
 .largepics {
@@ -212,31 +211,29 @@ footer {
   nav {
      margin: 40px 0;
   }
-#profile {
-  width: 50px;
-  height: 50px;
-}
-.socials {
-  font-size: 12px;
-  padding: 13px;
-}
-
+  #profile {
+    width: 50px;
+    height: 50px;
+  }
+  .socials {
+    font-size: 12px;
+    padding: 13px;
+  }
 }
 
 @media screen and (max-width: 576px) {
-header {
+  header {
     max-width: 100%;
   }
   nav {
     margin: 40px 0;
   }
   #profile {
-      width: 50px;
-      height: 50px;
+    width: 50px;
+    height: 50px;
   }
   .socials {
     font-size: 8px;
     padding: 3px;
   }
-
-  }
+}
