@@ -15,24 +15,29 @@ header {
   font-size: 10px;
   background-color: var(--darkblue);
   width: 100%;
-  padding: 0 0 40px 0;
+  padding: 0 0 50px 0;
   margin: 0;
   border: 0px;
   height: 80px;
 }
-   
+
+
+#profile {
+  position: relative;
+  float: left;  
+  display: inline;
+  height: 100px;
+  width: 100px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
 h1 {
+  position: relative;
   font-family: serif;
   color: #e8e8e8;
-  justify-content: flex-start;
-  align-items: center;
-  font-size: 3.8vw;
-  border-radius: 20px 20px 20px 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 40px;
-  margin-left: 20px;
-  margin-right: 0;
+  font-size: 3.7vw;
+  margin-top: 50px;
   margin-bottom: 10px;
   border: 0;
 }
@@ -42,7 +47,7 @@ nav {
   font-weight: 900px;
   font-size: 1.6vw;
   text-decoration: underline;
-  margin-left: 400px;
+  margin-left: 200px;
   margin-top: 40px;
 }
 
@@ -93,7 +98,7 @@ div {
   padding: 20px;
 }
 
-.portfolio {
+#portfolio {
   display: flex;
   align-items: center;  border-bottom: 4px var(--darkblue) solid;
   margin: 30px;
@@ -115,7 +120,10 @@ div {
   padding: 10px;
 }
 
-img {
+#computer,
+#journal,
+#typewriter,
+#meeting {
   height: 150px;
   border: 5px solid #54cfe2;
 }
@@ -164,6 +172,10 @@ footer {
   nav {
      margin: 40px 0;
   }
+#profile {
+  width: 50px;
+  height: 50px;
+}
 
 }
 
@@ -174,5 +186,9 @@ header {
   nav {
     margin: 40px 0;
   }
+    #profile {
+      width: 50px;
+      height: 50px;
+    }
   
   }
