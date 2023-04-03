@@ -26,7 +26,7 @@ h1 {
   color: #e8e8e8;
   justify-content: flex-start;
   align-items: center;
-  font-size: 5em;
+  font-size: 3.8vw;
   border-radius: 20px 20px 20px 20px;
   padding-left: 20px;
   padding-right: 20px;
@@ -40,7 +40,7 @@ h1 {
 nav {
   display: flex;
   font-weight: 900px;
-  font-size: 2em;
+  font-size: 1.6vw;
   text-decoration: underline;
   margin-left: 400px;
   margin-top: 40px;
@@ -61,25 +61,27 @@ main {
   margin: 10px 0 60px 30px;
 }
 
-.about-me {
+#about-me {
   display: flex;
   align-items: center;
   border-bottom: 4px var(--darkblue) solid;
-  margin: 30px;
+  margin-right: 80px;
+  margin-left: 80px;
 }
 
 #intro {
   display: block;
-  
+  border: 0;  
+  padding: 0;
+  font-size: 24px;
 }
 
 h2 {
-  position: relative;
+  text-align: right;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 35px;
+  font-size: 2vw;;
   padding-right: 20px;
   width: 10%;
-  text-align: right;
   margin-right: 30px;
   margin-left: 20px;
 }
@@ -93,27 +95,28 @@ div {
 
 .portfolio {
   display: flex;
-  border-bottom: 4px var(--darkblue) solid;
+  align-items: center;  border-bottom: 4px var(--darkblue) solid;
   margin: 30px;
 }
 
 .photos {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   position: relative;
   width: 60%;
-  font-size: 18px;
+  font-size: 1vw;
   padding-left: 25px;
 }
 
 .pics {
   position: relative;
-  display: block;
+  display: inline;
   padding: 10px;
 }
 
 img {
-  height: 210px;
+  height: 150px;
   border: 5px solid #54cfe2;
 }
 
@@ -127,22 +130,25 @@ img {
 p {
   position: relative;
   display: block;
-  font-size: 18px;
+  font-size: 2.4vw;
   padding-left: 30px;
 }
 
-ul {
-  padding-left: 40px;
-  line-height: 40px;
-  font-size: 20px;
-  text-align: left;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande','Lucida Sans Unicode', Geneva,Verdana, sans-serif;
-  list-style: none;
+#contact-me {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+} 
+
+div p {
+  padding-left: 20px;
+  font-size: 19px;
 }
 
-.contact-me {
-  margin-left: 40px;
-  
+.socials {
+  color: var(--darkblue);
+  font-size: 1.5vw;
+  padding: 5vw;
 }
 
 footer {
@@ -152,10 +158,21 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-  border: ;
+  header {
+    max-width: 100%;
+  }
+  nav {
+     margin: 40px 0;
+  }
+
 }
 
 @media screen and (max-width: 576px) {
+header {
+    max-width: 100%;
+  }
+  nav {
+    margin: 40px 0;
+  }
   
-
   }
